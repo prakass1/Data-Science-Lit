@@ -1,0 +1,11 @@
+numpy
+pandas
+seaborn==0.9.0
+matplotlib
+wordcloud
+nltk
+sklearn
+gensim
+pprint
+pyldavis
+yellowbrick

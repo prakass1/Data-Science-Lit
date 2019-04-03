@@ -1,0 +1,272 @@
+Using Postman a request an example request response is shown below which is used for construction of dataset:
+
+Request:
+https://newsapi.org/v2/top-headlines?country=us&apiKey=85ba74ca668a4212913d75b848a2b6f3&category=health
+
+Response:
+{
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Myfox8.com"
+            },
+            "author": "http://www.facebook.com/fox8news",
+            "title": "56,000 bottles of blood pressure medicine is being recalled due to cancer risk - WGHP FOX 8 Greensboro",
+            "description": "A widespread recall of common blood pressure and heart failure medications has been expanded to include more drugs containing losartan. The recall is due to an \"impurity\" that is classified as a potential human carcinogen.\r\n\nThe impurity, N-Nitroso-N-methyl-4…",
+            "url": "https://myfox8.com/2019/03/02/56000-bottles-of-blood-pressure-medicine-is-being-recalled-due-to-cancer-risk/",
+            "urlToImage": "https://localtvwghp.files.wordpress.com/2019/03/ut_hkthath4eww8x4xmdoxoja4mtsign.jpg?quality=85&strip=all&w=1200",
+            "publishedAt": "2019-03-02T14:00:00Z",
+            "content": "A widespread recall of common blood pressure and heart failure medications has been expanded to include more drugs containing losartan. The recall is due to an \"impurity\" that is classified as a potential human carcinogen. The impurity, N-Nitroso-N-methyl-4-a… [+4812 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Rob Picheta, CNN",
+            "title": "Vaccination deniers gaining 'traction' on social media, health chief warns - CNN",
+            "description": "Anti-vaccination \"fake news\" being spread on social media is fueling a rise in measles cases and a decline in vaccination uptake, the head of England's National Health Service (NHS) has warned.",
+            "url": "https://www.cnn.com/2019/03/02/health/vaccination-deniers-social-media-gbr-intl/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/120327170449-hpv-vaccine-super-tease.jpg",
+            "publishedAt": "2019-03-02T10:38:00Z",
+            "content": "London (CNN) Anti-vaccination \"fake news\" being spread on social media is fueling a rise in measles cases and a decline in vaccination uptake, the head of England's National Health Service (NHS) has warned. Simon Stevens said \"vaccination deniers\" are gaining… [+3570 chars]"
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": null,
+            "title": "Measles surges to ALARMING levels in nearly 100 countries, consequences may be ‘DISASTROUS’ – UN - RT",
+            "description": "As many as 98 countries, both wealthy and underdeveloped, have reported an unprecedented spike in measles, the UN children’s body has warned, blaming the rapid spread of the disease on anti-vax prejudice.",
+            "url": "https://www.rt.com/news/452823-measles-outbreak-ukraine-rating/",
+            "urlToImage": "https://cdni.rt.com/files/2019.03/article/5c7a12c7fc7e938b438b4654.jpg",
+            "publishedAt": "2019-03-02T08:25:00Z",
+            "content": "The UN children’s agency, UNICEF, sounded the alarm about the spread of highly contagious diseases around the world on Friday, revealing that 98 countries reported a spike in measles cases last year. However, only 10 countries are responsible for that dramati… [+2629 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wcvb.com"
+            },
+            "author": "Mike Wankum",
+            "title": "Video: Here's all the times we'll be hit by snow this weekend - WCVB Boston",
+            "description": "Saturday's storm will be a quick hitter. The storm Sunday night into Monday will be the most impactful.",
+            "url": "https://www.wcvb.com/article/video-here-s-all-the-times-we-ll-be-hit-by-snow-this-weekend/26597132",
+            "urlToImage": "https://kubrick.htvapps.com/vidthumb/1b5288c7-d3b5-4d50-b477-1de6c9d357d8/1b5288c7-d3b5-4d50-b477-1de6c9d357d8_image.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+            "publishedAt": "2019-03-02T03:52:00Z",
+            "content": "Saturday's storm will be a quick hitter. The storm Sunday night into Monday will be the most impactful."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thedailybeast.com"
+            },
+            "author": "Kelly Weill",
+            "title": "Anti-Vaxxers Are Cozying Up to the Far Right Online - The Daily Beast",
+            "description": "They’re anti-science and conspiratorial. Together, they’re building a right-wing populist, measle-stricken future.",
+            "url": "https://www.thedailybeast.com/anti-vaxxers-are-cozying-up-to-the-far-right-online",
+            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1551487469/190301-weill-antivaxx-conservative-tease-4_ebkyam",
+            "publishedAt": "2019-03-02T03:39:00Z",
+            "content": "Often, sometimes multiple times a day, users in an anti-vaccination Facebook group post a link to a 2017 article about vaccine laws in Sweden. Nice! one group member captioned the article last week. Amazing, interesting, wrote two people who shared the articl… [+7927 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wave3.com"
+            },
+            "author": "Amaya Turner",
+            "title": "WBTV's Steve Crump shares his diagnosis during Colon Cancer Awareness Month on Morning Break - WAVE 3",
+            "description": "When Crump first sat down with anchor Jamie Boll back in August to talk about his leave of absence, he wasn’t quite ready to go public with all he is facing. Since then, he has shared more details of his journey and his gratitude for the viewers.",
+            "url": "http://www.wave3.com/2019/03/02/steve-crump-shares-his-diagnosis-during-colon-cancer-awareness-month-morning-break/",
+            "urlToImage": "http://www.wave3.com/resizer/CIsa1sTac2O_7e07HdK6QW2rVVk=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/I6SPGT6YERCN7HZFEPJE34ZCQM.jpg",
+            "publishedAt": "2019-03-02T03:12:26Z",
+            "content": "CHARLOTTE, NC (WBTV) - WBTV veteran reporter Steve Crump who has taken a medical leave of absence since 2017 has returned to Morning Break to share his diagnosis of colon cancer during Colon Cancer Awareness Month. In an interview with anchor Jamie Boll back … [+2052 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Boston.com"
+            },
+            "author": "associated-press",
+            "title": "Boston health officials warn of possible measles exposure - Boston.com",
+            "description": "",
+            "url": "https://www.boston.com/news/health/2019/03/01/boston-health-officials-warn-of-possible-measles-exposure",
+            "urlToImage": "https://www.boston.com/wp-content/uploads/2016/05/download-1-2-1-850x478.jpeg",
+            "publishedAt": "2019-03-02T02:28:24Z",
+            "content": "BOSTON (AP) Public health officials in Boston are warning of a possible measles exposure after an individual with a confirmed case of the disease traveled from New York City to Boston and then to New Hampshire. Health officials said the possible exposure occu… [+516 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sciencedaily.com"
+            },
+            "author": null,
+            "title": "How sensitivity to emotions changes across the lifespan: Researchers gain a deeper understanding into differences in emotion processing - Science Daily",
+            "description": "Why do we become more positive as we grow older? Why are adolescents so sensitive to negative social cues?",
+            "url": "https://www.sciencedaily.com/releases/2019/03/190301192648.htm",
+            "urlToImage": null,
+            "publishedAt": "2019-03-02T00:32:26Z",
+            "content": "Why do we become more positive as we grow older? Why are adolescents so sensitive to negative social cues? These are a few of the questions addressed in \"Emotion Sensitivity Across the Lifespan: Mapping Clinical Risk Periods to Sensitivity to Facial Emotion I… [+3863 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo.com"
+            },
+            "author": null,
+            "title": "New cancer-causing toxin found in recalled blood pressure pills - Yahoo News",
+            "description": "U.S. health regulators said on Friday a third cancer-causing  toxin was found in some blood pressure pills recalled by India's Hetero Labs Ltd a day earlier, adding to a global recall of commonly used drugs to treat hypertension.  The U.S. Food and Drug Admin…",
+            "url": "https://www.yahoo.com/news/fda-finds-cancer-causing-impurity-blood-pressure-pills-155030176.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/aH5TkRCj3qY5nTmrhh92nA--~B/aD03MjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://slick-prod.s3-us-west-2.amazonaws.com/slick_thumb/giraffe-264345-1551471340079.jpg",
+            "publishedAt": "2019-03-01T23:58:00Z",
+            "content": "(Reuters) - U.S. health regulators said on Friday a third cancer-causing toxin was found in some blood pressure pills recalled by India's Hetero Labs Ltd a day earlier, adding to a global recall of commonly used drugs to treat hypertension. The U.S. Food and … [+1925 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Abc7chicago.com"
+            },
+            "author": null,
+            "title": "Measles exposure possible at Midway Airport, Delnor Hospital in Geneva - WLS-TV",
+            "description": "Illinois health officials are warning people who visited Midway Airport on February 22 and Delnor Hospital in west suburban Geneva on February 24 that they may have been exposed to measles.",
+            "url": "https://abc7chicago.com/health/measles-exposure-possible-at-midway-airport-delnor-hospital-/5161761/",
+            "urlToImage": "https://static.abcotvs.com/wls/images/cms/automation/vod/030119-wls-measles-5-vid.jpg",
+            "publishedAt": "2019-03-01T23:48:00Z",
+            "content": "Illinois health officials are warning people who visited Chicago's Midway Airport and Delnor Hospital in west suburban Geneva in the last week that they may have been exposed to measles. WATCH: How to avoid measles According to the Illinois Department of Publ… [+1992 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Jonathan LaPook",
+            "title": "Amid measles concerns, debate rages in Texas over vaccination requirements - CBS News",
+            "description": "Texas has more than 56,000 children with non-medical exemptions",
+            "url": "https://www.cbsnews.com/news/measles-outbreak-debate-rages-texas-over-vaccination-requirements-2019-03-01/",
+            "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2019/01/24/1e178040-2ecf-4e79-960c-0556d8e16cf2/thumbnail/1200x630/255ca6d6a32c40c653eff13cf76a926d/0123-en-measles-yuccas-new-1765677-640x360.jpg",
+            "publishedAt": "2019-03-01T23:40:00Z",
+            "content": "Austin, Texas — In Texas, the fight over vaccination requirements isn't just a health issue, it's political. State Rep. Jonathan Stickland, a conservative Republican, says while he is not against immunizations, he opposes any legislation related to vaccine co… [+1713 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sciencedaily.com"
+            },
+            "author": null,
+            "title": "High-fat diet and age alter microflora and cause inflammation in heart failure: Experiments with mice show involvement of gut bacteria and spleen in this heart pathology - Science Daily",
+            "description": "Growing older and a high-fat diet enriched with omega 6 fatty acids are major contributors to health risks ranging from diabetes to heart failure. How these factors regulate the immune response is now described -- a calorie-dense, obesity-generating diet in a…",
+            "url": "https://www.sciencedaily.com/releases/2019/03/190301160923.htm",
+            "urlToImage": null,
+            "publishedAt": "2019-03-01T22:54:26Z",
+            "content": "Growing older and a high-fat diet enriched with omega 6 fatty acids are major contributors to health risks ranging from diabetes to heart failure. How these two factors regulate the immune response is not well-understood. Ganesh Halade, Ph.D., and colleagues … [+2535 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lohud.com"
+            },
+            "author": "Christopher J. Eberhart",
+            "title": "Measles case confirmed in Westchester - The Journal News | LoHud.com",
+            "description": "The Westchester County Department of Health is working closely with Monroe to notify those who have been exposed.",
+            "url": "https://www.lohud.com/story/news/health/2019/03/01/measles-westchester-monroe-college/3033180002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2019/02/14/PWES/e9eda329-f0f9-46c0-b248-3df72ae83e89-cm021319measels04.jpg?crop=5859,3310,x0,y1028&width=3200&height=1680&fit=bounds",
+            "publishedAt": "2019-03-01T22:54:00Z",
+            "content": "Rockland County Commissioner of Health, Dr. Patricia Schnabel Ruppert, gives an update on the measles outbreak in Rockland County Wednesday, Oct. 17, 2018 Peter Carr, pcarr@lohud.com A college student diagnosed with measles was in New Rochelle today, accordin… [+1113 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Megan Cerullo",
+            "title": "More millennials are getting plastic surgery, driven by social media and jobs - CBS News",
+            "description": "Some plastic surgeons are alarmed by the trend, driven by a mix of vanity and a desire to stand out in the job market",
+            "url": "https://www.cbsnews.com/news/millennials-plastic-surgery-surge-due-to-social-media-and-jobs/",
+            "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2019/03/01/0ceb2dc9-a403-43c0-b57e-a9b457059eba/thumbnail/1200x630/cd3dbba2060955127aca07f502d6c21a/gettyimages-1126440375.jpg",
+            "publishedAt": "2019-03-01T22:32:00Z",
+            "content": "More millennials are getting plastic surgery, driven by the pressures of social media and the desire to stand out in the job market. Jamie Mysel, 23, always disliked her nose, but said that if it hadn't been for a photograph of herself that surfaced on Facebo… [+4133 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Ed Cara",
+            "title": "New Wireless Sensors Let Premature Infants Get More Cuddles - Gizmodo",
+            "description": "Researchers in Chicago have seemingly found a much easier way for premature babies in intensive care to get the human touch and cuddles they need from their caregivers. This week, they introduced a system of wireless, low-irritation sensors that can be used t…",
+            "url": "https://gizmodo.com/new-wireless-sensors-let-premature-infants-get-more-cud-1832993781",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/s--wu7y4OSH--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/f9zkvi8x7uloexjtcsgg.jpg",
+            "publishedAt": "2019-03-01T22:11:00Z",
+            "content": "Researchers in Chicago have seemingly found a much easier way for premature babies in intensive care to get the human touch and cuddles they need from their caregivers. This week, they introduced a system of wireless, low-irritation sensors that can be used t… [+3426 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mindbodygreen.com"
+            },
+            "author": "Caroline Muggia",
+            "title": "This Is What We Can Learn From The World's Healthiest Countries - mindbodygreen.com",
+            "description": "The diet and exercises they love.",
+            "url": "https://www.mindbodygreen.com/articles/how-to-be-like-the-worlds-healthiest-countries",
+            "urlToImage": "https://mindbodygreen-res.cloudinary.com/image/upload/c_crop,x_0,y_0,w_1547,h_1116/c_fill,w_720,h_378,g_auto,q_85,fl_lossy,f_jpg/org/nk08cx51tjsm4jvoa.jpg",
+            "publishedAt": "2019-03-01T22:06:30Z",
+            "content": "The researchers behind the top 10 list suggest that these stats could have to do with a well-loved diet shared by many of the top contenders: one high in vegetables, fruits, legumes, fish, low-fat dairy, and healthy fats like olive oil and avocado. This diet … [+958 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Futurism.com"
+            },
+            "author": "Jon Christian",
+            "title": "DNA Ancestry Startups Have a New Target Market: The Long-Dead - Futurism",
+            "description": "\"When they were licking those stamps... they were sealing their precious DNA for you forever.\"",
+            "url": "https://futurism.com/the-byte/ancestry-dna-startups-long-dead",
+            "urlToImage": "https://wp-assets.futurism.com/2019/03/dna-ancestry-startups-long-dead-1200x630.png",
+            "publishedAt": "2019-03-01T20:56:23Z",
+            "content": "Dance With the Dead Startups that sequence your DNA to help piece together your ancestry have a new target market, according to a story in The Atlantic : your long-dead ancestors, who may have inadvertently left behind genetic material when they licked stamps… [+1411 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Boingboing.net"
+            },
+            "author": null,
+            "title": "Incredibly rare pair of semi-identical twins - Boing Boing",
+            "description": "Incredibly rare pair of semi-identical twins",
+            "url": "https://boingboing.net/2019/03/01/these-children-are-the-second.html",
+            "urlToImage": "https://media.boingboing.net/wp-content/uploads/2019/03/screenshot-1.jpg",
+            "publishedAt": "2019-03-01T19:52:00Z",
+            "content": "Semi-identical twins -- a boy and girl who are identical on their mother's side but share only 78% of their father's genome -- have been identified in Brisbane, Australia. This is only the second known case, ever. From the BBC : \"The mother's ultrasound at si… [+702 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Medicalxpress.com"
+            },
+            "author": "Science X staff",
+            "title": "Researchers discover clues to brain differences between males and females - Medical Xpress",
+            "description": "Researchers at the University of Maryland School of Medicine have discovered a mechanism for how androgens—male sex steroids—sculpt brain development. The research, conducted by Margaret M. McCarthy, Ph.D., who Chairs the Department of Pharmacology, could ult…",
+            "url": "https://medicalxpress.com/news/2019-03-clues-brain-differences-males-females.html",
+            "urlToImage": "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/4-brain.jpg",
+            "publishedAt": "2019-03-01T19:44:16Z",
+            "content": "Researchers at the University of Maryland School of Medicine have discovered a mechanism for how androgensmale sex steroidssculpt brain development. The research, conducted by Margaret M. McCarthy, Ph.D., who Chairs the Department of Pharmacology, could ultim… [+3137 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Express.co.uk"
+            },
+            "author": "Matt Atherton",
+            "title": "Diabetes type 2 - four of the best breakfast swaps to avoid high blood sugar symptoms - Express",
+            "description": "DIABETES type 2 risk could be lowered by making some diet or lifestyle changes. You could prevent high blood sugar symptoms and signs by making some small breakfast swaps. This is the best cereal and toast to avoid diabetes symptoms.",
+            "url": "https://www.express.co.uk/life-style/health/1094518/diabetes-type-2-diet-symptoms-signs-high-blood-sugar-breakfast",
+            "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/11/750x445/1094518.jpg",
+            "publishedAt": "2019-03-01T18:25:00Z",
+            "content": null
+        }
+    ]
+}
