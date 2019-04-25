@@ -1,7 +1,7 @@
 Using Postman a request an example request response is shown below which is used for construction of dataset:
 
 Request:
-https://newsapi.org/v2/top-headlines?country=us&apiKey=85ba74ca668a4212913d75b848a2b6f3&category=health
+https://newsapi.org/v2/top-headlines?country=us&apiKey=85ba74ca668a421292b6f3&category=health
 
 Response:
 {
