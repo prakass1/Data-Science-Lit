@@ -6,4 +6,5 @@ The project pretty much does work as below:
 3. Used those insights to create a mothers day word cloud using only tweet texts around the world and India
 
 
+# Mother's Day Special Contribution:
 ![Mothers Day Image Output](https://github.com/prakass1/Data-Science-Lit/blob/master/mothers_day_notebook/motherday.png)
