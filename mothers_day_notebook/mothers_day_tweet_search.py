@@ -20,12 +20,12 @@ $ curl --request GET
 
 
 headers={'authorization': 'OAuth',
-             'oauth_consumer_key':"mNCkklH3qGaoWzmUBy16im9fu",
+             'oauth_consumer_key':"XXXX_XXXXXX",
              'oauth_nonce':'generated-nonce',
              'oauth_signature':'generated-signature',
              'oauth_signature_method':'HMAC-SHA1',
              'oauth_timestamp':'generated-timestamp',
-             'oauth_token':'3038733591-kyqdatnReOb8d1PHOs2nBIO93sIlGEyv5iq9CO5',
+             'oauth_token':'XXXXX-XXXXXXXXX_XXXXXXXXXX',
              'oauth_version':'1.0'
              }
  
