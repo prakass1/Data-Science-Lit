@@ -13,3 +13,6 @@ An end-to-end project is done to extract the top headlines from newsapi.org and 
 
 4. mothers day notebook:
 It was very heartly presented project to search for recent/popular tweets in time and use those text to visualize a shape like a mother.
+
+5. Spam Detection on YouTube Comments:
+The idea of the project was to detect spams in comment text of youtube. Dataset of individual singers were combined to check the spam and ham as compared to original paper who do it individually to each singer. But, a new approach convert :) -> Smile smileys in utf-8 format to text representation is created, along with it HashTagCounts, LinkCounts are utilized which boosts the performance of the classifier with SVM doing best of 93% which is close to the actual paper "Alberto, Túlio C., Johannes V. Lochter, and Tiago A. Almeida. "Tubespam: Comment spam filtering on youtube." 2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA). IEEE, 2015.".
